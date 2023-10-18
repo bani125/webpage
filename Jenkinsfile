@@ -23,7 +23,7 @@ pipeline {
 					steps {
 					
 						sh "cp -r index.html /var/www/html"
-						sh "chmod -R index.html /var/www/html/index.html"
+						sh "chmod -R 777 index.html /var/www/html/index.html"
 					      }  
 				}
 		        stage ('restart apache'){
