@@ -4,7 +4,7 @@ pipeline {
 		
 				label {
 						label "built-in"
-						customWorkspace ('/data/pipeline')
+						customWorkspace "/data/pipeline"
 				
 				      }
 				}
