@@ -10,14 +10,14 @@ pipeline {
 				}
 		stages {
 		
-				stage ('install-apache'){
+				//stage ('install-apache'){
 				
-					steps {
+					//steps {
 						
 						sh "yum install httpd -y"
 		         		
-						  }
-				                      }
+						 // }
+				                   //   }
 				stage ('deploy index'){
 				 
 					steps {
